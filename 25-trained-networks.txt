@@ -1,0 +1,39 @@
+# Error = 0.0436245169827 1 0
+# rm -f out; for j in {0..4}; do for i in {0..4}; do OUT=`./nn.py -d ../nn19_revisited/training_data_25.json -e 2000 -r 50 -k 4,6,4 -t -l "/tmp/saved_network_4,6,4_25_2.-Starting-from-4|6|4-network-to-bigger-4|6|7|4-with-old-neurons-locked-${j}_7500_${i}.net" 2> /dev/null| grep Error`; echo $OUT $j $i >> out; done; done; cat out| grep Error | sort -n
+
+A="/tmp/saved_network_4,6,4_25_2.-Starting-from-4|6|4-network-to-bigger-4|6|7|4-with-old-neurons-locked-1_7500_0.net"
+
+# Error = 0.0336151514495 1 2
+# rm -f out; for j in {0..4}; do for i in {0..4}; do OUT=`./nn.py -d ../nn19_revisited/training_data_25.json -e 2000 -r 50 -k 4,6,4 -t -l "/tmp/saved_network_4,6,4_25_3.-Starting-from-4|6|4-network-to-bigger-4|6|7|4-with-old-neurons-locked-${j}_15000_${i}.net" 2> /dev/null| grep Error`; echo $OUT $j $i >> out; done; done; cat out| grep Error | sort -n
+
+B="/tmp/saved_network_4,6,4_25_3.-Starting-from-4|6|4-network-to-bigger-4|6|7|4-with-old-neurons-locked-1_15000_2.net"
+
+# Error = 0.0280563061998 1 2
+# rm -f out; for j in {0..4}; do for i in {0..4}; do OUT=`./nn.py -d ../nn19_revisited/training_data_25.json -e 2000 -r 50 -k 4,6,4 -t -l "/tmp/saved_network_4,6,4_25_4.-Starting-from-4|6|4-network-to-bigger-4|6|7|4-with-layers-4|6-locked-${j}_7500_${i}.net" 2> /dev/null| grep Error`; echo $OUT $j $i >> out; done; done; cat out| grep Error | sort -n
+
+C="/tmp/saved_network_4,6,4_25_4.-Starting-from-4|6|4-network-to-bigger-4|6|7|4-with-layers-4|6-locked-1_7500_2.net"
+
+# Error = 0.0226688676044 2 0
+# rm -f out; for j in {0..4}; do for i in {0..4}; do OUT=`./nn.py -d ../nn19_revisited/training_data_25.json -e 2000 -r 50 -k 4,6,4 -t -l "/tmp/saved_network_4,6,4_25_5.-Starting-from-4|6|4-network-to-bigger-4|6|7|4-with-layers-4|6-locked-${j}_15000_${i}.net" 2> /dev/null| grep Error`; echo $OUT $j $i >> out; done; done; cat out| grep Error | sort -n
+
+D="/tmp/saved_network_4,6,4_25_5.-Starting-from-4|6|4-network-to-bigger-4|6|7|4-with-layers-4|6-locked-2_15000_0.net"
+
+# Error = 0.00502034695731 0 3
+# rm -f out; for j in {0..4}; do for i in {0..4}; do OUT=`./nn.py -d ../nn19_revisited/training_data_25.json -e 2000 -r 50 -k 4,6,4 -t -l "/tmp/saved_network_4,6,4_25_6.-Starting-from-4|6|4-network-to-bigger-4|6|7|4-with-all-neurons-unlocked-${j}_7500_${i}.net" 2> /dev/null| grep Error`; echo $OUT $j $i >> out; done; done; cat out| grep Error | sort -n
+
+E="/tmp/saved_network_4,6,4_25_6.-Starting-from-4|6|4-network-to-bigger-4|6|7|4-with-all-neurons-unlocked-0_7500_3.net"
+
+# Error = 0.00849181365763 2 1
+# rm -f out; for j in {0..4}; do for i in {0..4}; do OUT=`./nn.py -d ../nn19_revisited/training_data_25.json -e 2000 -r 50 -k 4,6,4 -t -l "/tmp/saved_network_4,6,4_25_7.-Starting-from-4|6|4-network-to-bigger-4|6|7|4-with-all-neurons-unlocked-${j}_15000_${i}.net" 2> /dev/null| grep Error`; echo $OUT $j $i >> out; done; done; cat out| grep Error | sort -n
+
+F="/tmp/saved_network_4,6,4_25_7.-Starting-from-4|6|4-network-to-bigger-4|6|7|4-with-all-neurons-unlocked-2_15000_1.net"
+
+# Error = 0.0226072539617 2 2
+# rm -f out; for j in {0..4}; do for i in {0..4}; do OUT=`./nn.py -d ../nn19_revisited/training_data_25.json -e 2000 -r 50 -k 4,6,4 -t -l "/tmp/saved_network_4,6,4_25_8.-Starting-from-4|6|4-network-to-bigger-4|13|4-with-all-neurons-unlocked-${j}_7500_${i}.net" 2> /dev/null| grep Error`; echo $OUT $j $i >> out; done; done; cat out| grep Error | sort -n
+
+G="/tmp/saved_network_4,6,4_25_8.-Starting-from-4|6|4-network-to-bigger-4|13|4-with-all-neurons-unlocked-2_7500_2.net"
+
+# Error = 0.022900352811 1 3
+# rm -f out; for j in {0..4}; do for i in {0..4}; do OUT=`./nn.py -d ../nn19_revisited/training_data_25.json -e 2000 -r 50 -k 4,6,4 -t -l "/tmp/saved_network_4,6,4_25_9.-Starting-from-4|6|4-network-to-bigger-4|13|4-with-all-neurons-unlocked-${j}_15000_${i}.net" 2> /dev/null| grep Error`; echo $OUT $j $i >> out; done; done; cat out| grep Error | sort -n
+
+H="/tmp/saved_network_4,6,4_25_9.-Starting-from-4|6|4-network-to-bigger-4|13|4-with-all-neurons-unlocked-1_15000_3.net"

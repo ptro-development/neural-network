@@ -1,0 +1,113 @@
+1.)
+
+data : 25%
+epochs: 25000
+Layer Capacity(14)
+
+[4,6,4](14) -> [4,6,7,4](21)
+
+/- unlocked [4,6,4] all neurons unlocked - URA
+/- unlocked [4,6,4] to [4,6,7,4], old neurons [4,6,4] are locked, new layer added at 7500 => LA
+/- unlocked [4,6,4] to [4,6,7,4], old neurons [4,6,4] are locked, new layer added at 15000 => LB
+/- unlocked [4,6,4] to [4,6,7,4], only neurons in following layers are locked [4,6], new layer added at 7500 =>  LPA
+/- unlocked [4,6,4] to [4,6,7,4], only neurons in following layers are locked [4,6], new layer added at 15000 =>  LPB
+/- unlocked [4,6,4] to [4,6,7,4], all neurons unlocked, new layer added at 7500 =>  UA
+/- unlocked [4,6,4] to [4,6,7,4], all neurons unlocked, new layer added at 15000 =>  UB
+/- unlocked [4,6,4] to [4,13,4] all neurons unlocked, new layer added at 7500 => UWA
+/- unlocked [4,6,4] to [4,13,4] all neurons unlocked, new layer added at 15000 => UWB
+/- unlocked [4,6,7,4] all neurons unlocked - URB
+/- unlocked [4,13,4] all neurons unlocked - URW
+
+2.)
+
+data: 50%
+epochs: 25000
+
+[4,6,7,4](21) -> [4,6,7,7,4](28)
+
+- previous LA to [4,6,7,7,4], old neurons [4,6,7,4] are locked, new layer added at 7500 => LA
+- previous LB to [4,6,7,7,4], old neurons [4,6,7,4] are locked, new layer added at 15000 => LB
+- previous LPA to [4,6,7,7,4], only neurons in following layers are locked [4,6,7], new layer added at 7500 =>  LPA
+- previous LPB to [4,6,7,7,4], only neurons in following layers are locked [4,6,7], new layer added at 15000 =>  LPB
+- previous UA to [4,6,7,7,4], all neurons unlocked, new layer added at 7500 =>  UA
+- previous UB to [4,6,7,7,4], all neurons unlocked, new layer added at 15000 =>  UB
+
+epochs: 50000
+- unlocked [4,6,7,4] all neurons unlocked - URA
+- unlocked [4,6,7,7,4] all neurons unlocked - URB
+
+Layer Capacity (14)
+
+epochs: 25000
+
+[4,13,4](21) -> [4,14,6,4](28)
+
+- previous UWA to [4,14,6,4] all neurons unlocked, new layer added at 7500 => UWA
+- previous UWB to [4,14,6,4] all neurons unlocked, new layer added at 15000 => UWB
+
+epochs: 50000
+- unlocked [4,13,4] all neurons unlocked - URWA
+- unlocked [4,6,7,7,4] all neurons unlocked - URWB
+
+3.)
+data: 75%
+epochs: 25000
+
+4,6,7,7,4 -> 4,6,7,7,7,4 => 35
+
+- previous LA to [4,6,7,7,7,4], old neurons [4,6,7,7,4] are locked, new layer added at 7500 => LA
+- previous LB to [4,6,7,7,7,4], old neurons [4,6,7,7,4] are locked, new layer added at 15000 => LB
+- previous LPA to [4,6,7,7,7,4], only neurons in following layers are locked [4,6,7,7], new layer added at 7500 =>  LPA
+- previous LPB to [4,6,7,7,7,4], only neurons in following layers are locked [4,6,7,7], new layer added at 15000 =>  LPB
+- previous UA to [4,6,7,7,7,4], all neurons unlocked, new layer added at 7500 =>  UA
+- previous UB to [4,6,7,7,7,4], all neurons unlocked, new layer added at 15000 =>  UB
+
+epochs: 75000
+
+- unlocked [4,6,7,7,4] all neurons unlocked - URA
+- unlocked [4,6,7,7,7,4] all neurons unlocked - URB
+
+Layer Capacity (14)
+
+4,14,6,4 -> 4,14,13,4 => 35
+
+epochs: 25000
+
+- previous UWA to [4,14,13,4] all neurons unlocked, new layer added at 7500 => UWA
+- previous UWB to [4,14,13,4] all neurons unlocked, new layer added at 15000 => UWB
+
+epochs: 75000
+- unlocked [4,13,6,4] all neurons unlocked - URWA
+- unlocked [4,14,14,4] all neurons unlocked - URWB
+
+4.)
+
+data: 100%
+epochs: 25000
+
+4,6,7,7,7,4 -> 4,6,7,7,7,7,4 => 42
+
+- previous LA to [4,6,7,7,7,7,4], old neurons [4,6,7,7,7,4] are locked, new layer added at 7500 => LA
+- previous LB to [4,6,7,7,7,7,4], old neurons [4,6,7,7,7,4] are locked, new layer added at 15000 => LB
+- previous LPA to [4,6,7,7,7,7,4], only neurons in following layers are locked [4,6,7,7,7], new layer added at 7500 =>  LPA
+- previous LPB to [4,6,7,7,7,7,4], only neurons in following layers are locked [4,6,7,7,7], new layer added at 15000 =>  LPB
+- previous UA to [4,6,7,7,7,7,4], all neurons unlocked, new layer added at 7500 =>  UA
+- previous UB to [4,6,7,7,7,7,4], all neurons unlocked, new layer added at 15000 =>  UB
+
+epochs: 75000
+
+- unlocked [4,6,7,7,7,4] all neurons unlocked - URA
+- unlocked [4,6,7,7,7,4] all neurons unlocked - URB
+
+Layer Capacity (14)
+
+4,14,13,4 => 4,14,14,6,4 => 42
+
+epochs: 25000
+
+- previous UWA to [4,14,14,6,4] all neurons unlocked, new layer added at 7500 => UWA
+- previous UWB to [4,14,14,6,4] all neurons unlocked, new layer added at 15000 => UWB
+
+epochs: 75000
+- unlocked [4,14,13,4] all neurons unlocked - URWA
+- unlocked [4,14,14,6,4] all neurons unlocked - URWB

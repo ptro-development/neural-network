@@ -1,0 +1,26 @@
+0.0028601882 Starting from Starting from 4|14|13|4 network without change an upper bound 1
+0.0091381638 Starting from 4|6|7|7|7|4 network without change an upper bound 1
+0.0098953511 Starting from 4|6|7|7|4 network to bigger 4|6|7|7|7|4 with all neurons unlocked 2 65000
+0.0122942415 Starting from 4|6|7|7|4 network without change a lower bound 1
+0.0283726481 Starting from 4|14|6|4 network without change a lower bound 1
+0.0574330951 Starting from 4|6|7|7|4 network to bigger 4|6|7|7|7|4 with all neurons unlocked 2 57500
+0.0659087332 Starting from 4|14|6|4 network to bigger 4|14|13|4 with all neurons unlocked 2 65000
+0.0687995996 Starting from 4|14|6|4 network to bigger 4|14|13|4 with all neurons unlocked 2 57500
+0.1102299928 Starting from 4|6|7|7|4 network to bigger 4|6|7|7|7|4 with layers 4|6|7|7 locked 2 57500
+0.116616086  Starting from 4|6|7|7|4 network to bigger 4|6|7|7|7|4 with layers 4|6|7|7 locked 2 65000
+0.5978495331 Starting from 4|6|7|7|4 network to bigger 4|6|7|7|7|4 with old neurons locked 2 57500
+0.8110189779 Starting from 4|6|7|7|4 network to bigger 4|6|7|7|7|4 with old neurons locked 2 65000
+
+
+3040.58486425 Starting from 4|6|7|7|4 network to bigger 4|6|7|7|7|4 with layers 4|6|7|7 locked 2 65000
+3110.41629402 Starting from 4|6|7|7|4 network to bigger 4|6|7|7|7|4 with old neurons locked 2 65000
+3115.56130628 Starting from 4|6|7|7|4 network to bigger 4|6|7|7|7|4 with old neurons locked 2 57500
+3322.95434607 Starting from 4|6|7|7|4 network to bigger 4|6|7|7|7|4 with layers 4|6|7|7 locked 2 57500
+4058.1050236 Starting from 4|6|7|7|4 network to bigger 4|6|7|7|7|4 with all neurons unlocked 2 57500
+4732.65608374 Starting from 4|6|7|7|4 network to bigger 4|6|7|7|7|4 with all neurons unlocked 2 65000
+5969.6537247 Starting from 4|6|7|7|4 network without change a lower bound 1
+6494.78590245 Starting from 4|14|6|4 network to bigger 4|14|13|4 with all neurons unlocked 2 65000
+7700.00136845 Starting from 4|14|6|4 network to bigger 4|14|13|4 with all neurons unlocked 2 57500
+8273.1015566 Starting from 4|14|6|4 network without change a lower bound 1
+9182.8775416 Starting from 4|6|7|7|7|4 network without change an upper bound 1
+10950.7135078 Starting from 4|14|13|4 network without change an upper bound 1

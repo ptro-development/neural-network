@@ -1,0 +1,16 @@
+# rm -f out; for j in {0..4}; do for i in {0..4};  do OUT=`./nn.py -d ../nn19_revisited/training_data_75.json -e 2000 -r 50 -k 4,6,4 -t -l "/mnt/data/pwrap-data/50-75-optimized-code-final/saved_network_4,6,7,7,4_75_2.-Starting-from-4|6|7|7|4-network-to-bigger-4|6|7|7|7|4-with-old-neurons-locked-${j}_57500_${i}.net" 2> /dev/null| grep Error`; echo $OUT $j $i >> out; done; done; cat out| grep Error | sort -n
+
+# Error = 13.1933289979 2 1
+A="/mnt/data/pwrap-data/50-75-optimized-code-final/saved_network_4,6,7,7,4_75_2.-Starting-from-4|6|7|7|4-network-to-bigger-4|6|7|7|7|4-with-old-neurons-locked-2_57500_1.net"
+
+Error = 10.4301619371 1 0 Error 0.751558309549
+Error = 12.3859347603 1 2 Error 0.809337506911
+Error = 12.9878802056 0 0 Error 0.866496627625
+Error = 13.1933289979 2 1 Error 1.148740895
+Error = 14.0932732398 0 2
+Error = 14.1234817615 2 2
+Error = 19.4201052708 2 0  Error 0.632788786937
+Error = 19.5656448593 1 1
+Error = 8.35357989981 0 1
+
+ 

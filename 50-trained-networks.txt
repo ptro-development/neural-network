@@ -1,0 +1,41 @@
+# rm -f out; for j in {0..4}; do for i in {0..4};  do OUT=`./nn.py -d ../nn19_revisited/training_data_50.json -e 2000 -r 50 -k 4,6,4 -t -l "/run/media/pwrap/187675E57675C452/50-trained/saved_network_4,6,7,4_50_2.-Starting-from-4|6|7|4-network-to-bigger-4|6|7|7|4-with-old-neurons-locked-${j}_32500_${i}.net" 2> /dev/null| grep Error`; echo $OUT $j $i >> out; done; done; cat out| grep Error | sort -n
+
+# Error = 16.727323031 2 2
+A="/run/media/pwrap/187675E57675C452/50-trained/saved_network_4,6,7,4_50_2.-Starting-from-4|6|7|4-network-to-bigger-4|6|7|7|4-with-old-neurons-locked-2_32500_2.net"
+
+# rm -f out; for j in {0..4}; do for i in {0..4};  do OUT=`./nn.py -d ../nn19_revisited/training_data_50.json -e 2000 -r 50 -k 4,6,4 -t -l "/run/media/pwrap/187675E57675C452/50-trained/saved_network_4,6,7,4_50_3.-Starting-from-4|6|7|4-network-to-bigger-4|6|7|7|4-with-old-neurons-locked-${j}_40000_${i}.net" 2> /dev/null| grep Error`; echo $OUT $j $i >> out; done; done; cat out| grep Error | sort -n
+
+# Error = 13.157076096 1 1
+B="/run/media/pwrap/187675E57675C452/50-trained/saved_network_4,6,7,4_50_3.-Starting-from-4|6|7|4-network-to-bigger-4|6|7|7|4-with-old-neurons-locked-1_40000_1.net"
+
+# rm -f out; for j in {0..4}; do for i in {0..4};  do OUT=`./nn.py -d ../nn19_revisited/training_data_50.json -e 2000 -r 50 -k 4,6,4 -t -l "/run/media/pwrap/187675E57675C452/50-trained/saved_network_4,6,7,4_50_4.-Starting-from-4|6|7|4-network-to-bigger-4|6|7|7|4-with-layers-4|6-locked-${j}_32500_${i}.net" 2> /dev/null| grep Error`; echo $OUT $j $i >> out; done; done; cat out| grep Error | sort -n
+
+# Error = 12.9488541861 2 1
+C="/run/media/pwrap/187675E57675C452/50-trained/saved_network_4,6,7,4_50_4.-Starting-from-4|6|7|4-network-to-bigger-4|6|7|7|4-with-layers-4|6-locked-2_32500_1.net"
+
+# rm -f out; for j in {0..4}; do for i in {0..4};  do OUT=`./nn.py -d ../nn19_revisited/training_data_50.json -e 2000 -r 50 -k 4,6,4 -t -l "/run/media/pwrap/187675E57675C452/50-trained/saved_network_4,6,7,4_50_5.-Starting-from-4|6|7|4-network-to-bigger-4|6|7|7|4-with-layers-4|6-locked-${j}_40000_${i}.net" 2> /dev/null| grep Error`; echo $OUT $j $i >> out; done; done; cat out| grep Error | sort -n
+
+# Error = 10.8880860393 0 1
+D="/run/media/pwrap/187675E57675C452/50-trained/saved_network_4,6,7,4_50_5.-Starting-from-4|6|7|4-network-to-bigger-4|6|7|7|4-with-layers-4|6-locked-0_40000_1.net"
+
+# rm -f out; for j in {0..4}; do for i in {0..4};  do OUT=`./nn.py -d ../nn19_revisited/training_data_50.json -e 2000 -r 50 -k 4,6,4 -t -l "/run/media/pwrap/187675E57675C452/50-trained/saved_network_4,6,7,4_50_6.-Starting-from-4|6|7|4-network-to-bigger-4|6|7|7|4-with-all-neurons-unlocked-${j}_32500_${i}.net" 2> /dev/null| grep Error`; echo $OUT $j $i >> out; done; done; cat out| grep Error | sort -n
+
+# Error = 0.0416258134574 3 1
+
+E="/run/media/pwrap/187675E57675C452/50-trained/saved_network_4,6,7,4_50_6.-Starting-from-4|6|7|4-network-to-bigger-4|6|7|7|4-with-all-neurons-unlocked-3_32500_1.net"
+
+# rm -f out; for j in {0..4}; do for i in {0..4};  do OUT=`./nn.py -d ../nn19_revisited/training_data_50.json -e 2000 -r 50 -k 4,6,4 -t -l "/run/media/pwrap/187675E57675C452/50-trained/saved_network_4,6,7,4_50_7.-Starting-from-4|6|7|4-network-to-bigger-4|6|7|7|4-with-all-neurons-unlocked-${j}_40000_${i}.net" 2> /dev/null| grep Error`; echo $OUT $j $i >> out; done; done; cat out| grep Error | sort -n
+
+# Error = 0.00825667689629 1 0
+
+F="/run/media/pwrap/187675E57675C452/50-trained/saved_network_4,6,7,4_50_7.-Starting-from-4|6|7|4-network-to-bigger-4|6|7|7|4-with-all-neurons-unlocked-1_40000_0.net"
+
+# Error = 0.171626031499 2 1
+# rm -f out; for j in {0..4}; do for i in {0..4};  do OUT=`./nn.py -d ../nn19_revisited/training_data_50.json -e 2000 -r 50 -k 4,6,4 -t -l "/run/media/pwrap/187675E57675C452/50-trained/saved_network_4,13,4_50_8.-Starting-from-4|13|4-network-to-bigger-4|14|6|4-with-all-neurons-unlocked-${j}_32500_${i}.net" 2> /dev/null| grep Error`; echo $OUT $j $i >> out; done; done; cat out| grep Error | sort -n
+
+G="/run/media/pwrap/187675E57675C452/50-trained/saved_network_4,13,4_50_8.-Starting-from-4|13|4-network-to-bigger-4|14|6|4-with-all-neurons-unlocked-2_32500_1.net"
+
+# Error = 0.0960585565207 2 0
+# rm -f out; for j in {0..4}; do for i in {0..4};  do OUT=`./nn.py -d ../nn19_revisited/training_data_50.json -e 2000 -r 50 -k 4,6,4 -t -l "/run/media/pwrap/187675E57675C452/50-trained/saved_network_4,13,4_50_9.-Starting-from-4|13|4-network-to-bigger-4|14|6|4-with-all-neurons-unlocked-${j}_40000_${i}.net" 2> /dev/null| grep Error`; echo $OUT $j $i >> out; done; done; cat out| grep Error | sort -n
+
+H="/run/media/pwrap/187675E57675C452/50-trained/saved_network_4,13,4_50_9.-Starting-from-4|13|4-network-to-bigger-4|14|6|4-with-all-neurons-unlocked-2_40000_0.net"
