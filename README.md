@@ -1,2 +1,2 @@
 # neural-network
-Neural network in python.
+Neural network in python. Main code in nn.py
